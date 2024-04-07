@@ -1,0 +1,40 @@
+git config --global user.name "Jesus"
+git config --global user.email "jeuss@gmail.com"
+
+git init -- begin project git
+git status -- show status, what happen in your project
+git add  index.js -- add file stage
+git pull -- make pull to repository remote
+git push -- make push to my machine
+git fetch -- make pull and push
+git restore --staged index.js
+git rm --cached index.js -- add file in unstage or 
+          make status untracked
+git add . -- add all file in stage
+git commit -m "Add my first file"
+git commit -a -m "Add switch" -- make commit all file in program
+dir - show folder
+mkdir - create folder
+clear - clean command line git
+git log - show history commit
+git log --oneline
+git log -p -- show detail commit
+git switch -c UpdateText -- create new branch and switch
+git rebase -i --root -- show information
+git rebase master -- join commit to branch
+git checkout -b <branch-name> --create branch
+git branch <branch-name>  # Creates a new branch
+git checkout <branch-name>  # Switches to the newly created branch
+git marge feature -- join to branch
+exist log --> click "Q"
+exist rebase : + x + enter
+-----------------------------------------
+Local:
+  Stage:
+  Unstage/ untracked
+
+Repository:
+add my change to repository send it
+git remote add origin git@github.com:adrianojesus23/LearnGit2024.git
+git branch -M main
+git push -u origin main
